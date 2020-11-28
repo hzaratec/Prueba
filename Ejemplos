@@ -1,0 +1,68 @@
+def dog().
+     print ("Este es un perro")
+     print('''
+              |\_/|
+              | @ @   Woof!
+              |   <>              _
+              |  _/\------____ ((| |))
+              |               `--' |
+          ____|_       ___|   |___.'
+         /_/_____/____/_______|''')
+dog()
+
+
+userName = input("Cual es su nombre?:")
+if userName == ("Clark Kent"):
+  print("Eres superman")
+else: 
+  print("No eres Superman")
+
+
+
+userName = input("Cual es tu nombre?")
+if userName == "Clark Kent" or userName =="Kal-El":
+	print("Eres superman!")
+else:
+	print("No Eres Superman")
+
+
+
+
+userName = input("Cual es tu nombre?")
+while True:
+  if userName == "Clark Kent" or userName =="Kal":print("Eres superman!")
+  else:
+    print("No Eres Superman")
+  userName = input("Cuál es tu nombre?")
+
+
+import turtle
+
+elsa=turtle.Turtle()
+for i in range(2):
+    elsa.forward(100)
+    elsa.right(60)
+    elsa.forward(100)
+    elsa.right(120)
+
+
+http://jumpto.cc/python-new
+
+import turtle
+
+elsa=turtle.Turtle()
+for i in range(4):
+  elsa.forward(100)
+  elsa.right(90)
+
+import turtle
+
+elsa=turtle.Turtle()
+for i in range(10):
+	for i in range(2):
+    elsa.forward(100)
+    elsa.right(60)
+   	elsa.forward(100)
+    elsa.right(120)
+  elsa.rigth(36)
+
